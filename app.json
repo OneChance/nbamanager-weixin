@@ -1,12 +1,38 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/team/team",
+    "pages/logs/logs",
+    "pages/market/market",
+    "pages/top/top"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },"tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      { 
+        "selectedIconPath": "icons/team_selected.png",
+        "iconPath": "icons/team_default.png",
+        "pagePath": "pages/team/team",
+        "text": "球队"
+      },
+      {
+        "selectedIconPath": "icons/market_selected.png",
+        "iconPath": "icons/market_default.png",
+        "pagePath": "pages/market/market",
+        "text": "市场"
+      },
+      {
+        "selectedIconPath": "icons/top_selected.png",
+        "iconPath": "icons/top_default.png",
+        "pagePath": "pages/top/top",
+        "text": "今日TOP10"
+      }
+    ]
   }
 }
